@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rebeccapurple;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: none;
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  border-radius: 15px;
+}
+
+.containerTwo {
+  position: relative;
+  top: 20%;
+  left: 15%;
+}
+
+.title {
+  color: steelblue;
+  top: 50%;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding-top: -10px;
+}
+
+.sayacKismi {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-left: 70px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.btnSection {
+  margin-left: -5px;
+  margin-top: 10px;
+}
+
+.azalt {
+  background-color: red;
+  outline: none;
+  cursor: pointer;
+  width: 50px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+
+.artir {
+  background-color: green;
+  outline: none;
+  cursor: pointer;
+  width: 50px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+
+.sifirla {
+  background-color: blue;
+  outline: none;
+  cursor: pointer;
+  width: 50px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-family: sans-serif;
+}
